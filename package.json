@@ -9,8 +9,15 @@
     "astro": "astro"
   },
   "dependencies": {
-    "astro": "^4.16.16",
     "@astrojs/check": "^0.9.4",
+    "@astrojs/tailwind": "^5.1.2",
+    "@fontsource-variable/onest": "^5.1.0",
+    "apexcharts": "^4.1.0",
+    "astro": "^4.16.16",
+    "flowbite": "^2.5.2",
+    "lodash": "^4.17.21",
+    "tailwindcss": "^3.4.15",
+    "tailwindcss-animated": "^1.1.2",
     "typescript": "^5.7.2"
   }
 }
