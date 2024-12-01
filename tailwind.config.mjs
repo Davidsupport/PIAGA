@@ -5,7 +5,15 @@ export default {
         "./node_modules/flowbite/**/*.js",
     ],
     theme: {
-        extend: {},
+        extend: {
+            colors: {
+                'RedPiaga': '#d41c16',
+                'BluePiaga' : '#001867',
+            },
+        },
     },
-    plugins: [require("tailwindcss-animated"), require("flowbite/plugin")],
+    plugins: [
+        require("tailwindcss-animated"),
+        require("flowbite/plugin"),
+    ],
 };
